@@ -1,5 +1,6 @@
 # biblioteca-de-manga-api
 
+```mermaid
 classDiagram
     direction LR
 
@@ -65,3 +66,4 @@ classDiagram
 
     AuthService "1" --> "*" Usuario : gerencia
     MangaRepository "1" --> "*" Obra : armazena
+```
